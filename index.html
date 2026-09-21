@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>مؤقّت المصباح</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="panel">
+
+    <header class="panel__header">
+      <span class="dot" id="dot"></span>
+      <h1>مؤقّت المصباح</h1>
+    </header>
+
+    <p class="status-line" id="statusLine">جارٍ الاتصال بالجهاز…</p>
+
+    <div class="fields">
+      <div class="field">
+        <input class="field__input" id="years" type="text" inputmode="numeric" value="0" autocomplete="off" />
+        <label class="field__label" for="years">سنوات</label>
+      </div>
+      <div class="field">
+        <input class="field__input" id="months" type="text" inputmode="numeric" value="0" autocomplete="off" />
+        <label class="field__label" for="months">أشهر</label>
+      </div>
+      <div class="field">
+        <input class="field__input" id="days" type="text" inputmode="numeric" value="0" autocomplete="off" />
+        <label class="field__label" for="days">أيام</label>
+      </div>
+      <div class="field">
+        <input class="field__input" id="hours" type="text" inputmode="numeric" value="0" autocomplete="off" />
+        <label class="field__label" for="hours">ساعات</label>
+      </div>
+      <div class="field">
+        <input class="field__input" id="minutes" type="text" inputmode="numeric" value="0" autocomplete="off" />
+        <label class="field__label" for="minutes">دقائق</label>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button class="btn btn--confirm" id="confirmBtn">تأكيد</button>
+      <button class="btn btn--reset" id="resetBtn">تصحيح</button>
+      <button class="btn btn--cancel" id="cancelBtn">إلغاء</button>
+    </div>
+
+  </main>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
