@@ -1,4 +1,4 @@
-```javascript
+javascript
 import { initializeApp } from
     "https://www.gstatic.com/firebasejs/12.19.0/firebase-app.js";
 
@@ -16,19 +16,19 @@ import {
 // ======================================
 
 const firebaseConfig = {
-    apiKey: "ضع نفس API KEY القديمة هنا",
+    apiKey: "AIzaSyBLbonz2yP9fI0RyeWeGbawlVj69yOmmDE",
 
-    authDomain: "ضع نفس AUTH DOMAIN القديمة هنا",
+    authDomain: "aaaaaa-8e6bb.firebaseapp.com",
 
-    databaseURL: "ضع نفس DATABASE URL القديمة هنا",
+    databaseURL: "aaaaaa-8e6bb-default-rtdb.firebaseio.com",
 
-    projectId: "ضع نفس PROJECT ID القديمة هنا",
+    projectId: "aaaaaa-8e6bb",
 
-    storageBucket: "ضع نفس STORAGE BUCKET القديمة هنا",
+    storageBucket: "aaaaaa-8e6bb.firebasestorage.app",
 
-    messagingSenderId: "ضع نفس MESSAGING SENDER ID القديمة هنا",
+    messagingSenderId: "196879657565",
 
-    appId: "ضع نفس APP ID القديمة هنا"
+    appId: "1:196879657565:web:4441a61531286180a17bb4"
 };
 
 
@@ -338,4 +338,4 @@ function updateRemaining(endTime) {
     countdownInterval =
         setInterval(update, 1000);
 }
-```
+
